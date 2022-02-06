@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">  
+    </head>
+    <body>
+        <div class="nav-bar">
+            <img src="./images/MorphDev.png" alt="morph-dev" id="header-img" />
+            <h1 id="nav-bar-heading">Kyle Prater</h1>
+            <div class="page-title-container">
+                <h1 id="page-title">Info Page</h1>
+            </div>    
+        </div>
+        <div id="main-content-container">
+            <div id="profile-img-container">
+                <img src="./images/ProflePic.png" id="profile-pic" />
+            </div>
+            <div id="about-me-info-container">
+                <div id="about-me-intro">
+                    <h1>Kyle Prater</h1>
+                    <p>Student/Junior Web Developer</p>
+                </div>   
+                    <div id="about-me-intro--button-container">
+                        <button id="mail-btn" onclick="copyText()">
+                            <div class="btn">
+                                <img src="./images/Mail.png" class="btn-img" />
+                                Email
+                            </div>    
+                        </button>
+                        <a href="https://www.linkedin.com/in/kyle-prater-32104420a/" target="_blank"><button id="linkedIn-btn">
+                            <div class="btn">
+                                <img src="./images/linkedin.png" class="btn-img" />
+                                LinkedIn
+                            </div>
+                        </button></a>
+                    </div> 
+                </div>
+            <div id="about-me-main">
+                <div id="about-me-main--about">
+                    <h1>About Me!</h1>
+                    <p>I’m a senior at Pittsburg State University. I’m originally from Colorado Springs, CO. 
+                        In January 2022, I started as a junior web developer at Morph Dev in Joplin, MO. 
+                        I love having the oportunity to learn new things every day on the job while also learning in the classroom.  
+                    </p>
+                </div>
+                <div id="about-me-main--interests">
+                    <h1>Interests</h1>
+                    <p>Some of my interests include:</p>
+                    <ul>
+                        <li>Video Games</li>
+                        <li>Watching Sports</li>
+                        <li>Being Outside</li>
+                        <li>Spending time with friends and family</li>
+                    </ul>
+                </div>
+            </div>    
+            </div>
+        </div>
+        <div id="footer-wrapper">
+            <footer>
+                <div id="socials">
+                    <a href="https://twitter.com/praterkyle42" target="_blank"> <img src="./images/TwitterIcon.png" class="footer-img"></a>
+                    <a href="https://www.facebook.com/kyle.prater.16/" target="blank"><img src="./images/FacebookIcon.png" class="footer-img" /></a>
+                    <a href="https://www.instagram.com/praterkyle42/?hl=en" target="blank"><img src="./images/InstagramIcon.png" class="footer-img" /></a>
+                    <a href="https://github.com/praterkyle42" target="_blank"><img src="./images/GitHubIcon.png" class="footer-img" /></a>
+                </div>
+                <h2>©PraterDevelopment 2022</h2>
+            </footer>
+        </div>
+        <script src="CopyText.js"></script>
+    </body>
+</html>
